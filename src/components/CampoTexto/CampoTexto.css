@@ -1,0 +1,28 @@
+.campo-texto{
+    margin: 24px 0;
+}
+
+
+.campo-texto input{
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(247, 244, 244, 0.475);
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.campo-texto ::placeholder{
+    color: #00072E;
+}
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 768px) {
+    .campo-texto input{
+        height: 20px;
+        box-shadow: 5px 5px 15px rgba(247, 244, 244, 0.475);
+        font-size: 16px;
+    }
+}

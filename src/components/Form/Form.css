@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.formulario h2{
+    font-family: "Prata", serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.formulario form{
+    width: 40%;
+    background-color: #00072E;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.formulario form ul{
+    list-style: none;
+    padding: 0;
+}
+
+.formulario form ul li{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 30px;
+}
+
+.formulario form ul li .botao-concluido {
+    color: greenyellow !important;
+  }
+
+  .formulario form ul li .botao-delete:hover {
+    color: #ff9595 !important;
+  }
+
+  .formulario form ul li span {
+    flex: 1;
+    word-break: break-word;
+    margin-right: 10px;
+  }
+
+  .formulario form .botao-filtro{
+    font-size: 25px;
+  }
+
+  .formulario form .botao-filtro:hover{
+    color: greenyellow;
+  }
+
+  .formulario form .contadores{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 25px;
+  }
+
+
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 768px) {
+    .formulario form {
+      margin-top: -40px;
+      padding: 10px;
+      width: 100%;
+      border-radius: 0px;
+    }
+  
+    .formulario form ul li {
+      font-size: 15px;
+    }
+  
+    .formulario form .botoes-filtro {
+        display: flex;
+      }
+    .formulario form .botao-filtro {
+      font-size: 13px;
+    }
+  
+    .formulario form .contadores {
+      font-size: 13px;
+      justify-content: space-between;
+    }
+
+ .delete-icon, .check-icon {
+        font-size: 20px !important;
+      }
+    }
+
+
+
+    @media screen and (min-width: 800px) and (max-width: 1900px){
+        .formulario form {
+          margin-top: -40px;
+          padding: 10px;
+          width: 80%;
+        }
+    
+        }
